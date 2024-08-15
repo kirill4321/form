@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1479px;
+    height: 740px;
+    background-color: rgb(196, 182, 171);
+    position: fixed;
+}
+.lider{
+    margin: 100px auto;
+    width: 450px;
+    height: 550px;
+    background-color: rgb(157, 138, 124);
+    box-shadow:  0px 1px 1px 3px rgba(45, 30, 23,0.91);
+    border-radius: 10%;
+}
+.h1{
+    color: black;
+    font-size: 80px;
+    margin: 10px 75px;
+}
+.name{
+    margin: 20px 50px;
+    width: 350px;
+    height: 35px;
+    font-size: 27px;
+    padding: 15px;
+    background-color: rgb(227, 222, 209);
+    border: 2px solid rgb(45, 30, 23);
+    border-radius: 8px;
+}
+.name:focus{
+    outline: none;
+}
+.text{
+    width: 350px;
+    height: 170px;
+}
+.password{
+    margin: 5px 50px;
+    width: 350px;
+    height: 35px;
+    font-size: 27px;
+    padding: 10px;
+    background-color: rgb(227, 222, 209);
+    border: 2px solid rgb(45, 30, 23);
+    border-radius: 8px;
+}
+.password:focus{
+    outline: none ;
+}
+.checkbox{
+    margin: 10px 50px;
+}
+.facebook{
+    width: 250px;
+    height: 50px;
+}
+.facebook1{
+    width: 250px;
+    height: 50px;
+    margin: 80px 80px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+.facebook2{
+    position: absolute;
+    left: 578px;
+    top: 429px;
+    width: 80px;
+    height: 60px;
+}
+.google{
+    width: 250px;
+    height: 50px;
+}
+.google1{
+    width: 250px;
+    height: 50px;
+    margin: 100px 80px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+.google2{
+    position: absolute;
+    left: 593px;
+    top: 504px;
+    width: 50px;
+    height: 50px;
+}
+.knopka{
+    width: 200px;
+    height: 50px;  
+   position: absolute;
+   top: 580px;
+   left: 540px;
+}
+.knopka11{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(150, 146, 134);
+    border: solid rgb(45, 30, 23);
+    color: white;
+    font-family: "Playfair Display", serif; 
+}
+.knopka11:hover{
+    background-color: rgb(79, 73, 63);
+}
+.knopka2{
+    margin: 250px 250px;
+    width: 200px;
+    height: 50px;  
+}
+.submit{
+    position: absolute;
+    top: 580px;
+    left: 800px;
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 10px ;
+    background-color: rgb(61, 61, 61);
+    border: solid rgb(45, 30, 23);
+    color: white;
+    font-family: "Playfair Display", serif; 
+}
+.submit:hover{
+    background-color: rgb(79, 73, 63);
+}
